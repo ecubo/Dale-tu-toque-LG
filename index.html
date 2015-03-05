@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1 ,user-scalable=0">
+<!-- 	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /> -->
+
+
+	<title>Dale tu Toque</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script data-main="js/main" src="js/lib/require.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+			<div class="game-board">
+				<div class="simon">
+					<ul class="tileUL">
+						<li class="tile red" data-tile="1"></li>
+						<li class="tile blue" data-tile="2"></li>
+						<li class="tile yellow" data-tile="3"></li>
+						<li class="tile green" data-tile="4"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="game-info">
+				<h2><span data-round="0">0</span></h2>
+				<p data-action="lose">Enhorabuena! has conseguido <span data-round="0"></span> puntos!</p>
+			</div>
+			<button data-action="start"></button>
+		<div data-action="sound"></div>
+	</div>
+	
+</body>
+</html>
